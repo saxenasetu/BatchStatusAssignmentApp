@@ -1,0 +1,28 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Table noDataText="No Data" id="tableLimRelNG" items="{path:'novoGlowLimitingBatchReleases', sorter:{path:'releaseData_qaApprovalDate'} }" busy="{=${state>/loading} ?  true : false}">
+		<columns>
+			<Column id="column0LRNG">
+				<Label text="CR Number" id="label2LRNG"/>
+			</Column>
+			<Column id="column1LRNG">
+				<Label text="Headline" id="label3LRNG"/>
+			</Column>
+			<Column id="column2LRNG">
+				<Label text="Criteria for batch limitation" id="label4LRNG" wrapping="true"/>
+			</Column>
+			<Column id="column3LRNG">
+				<Label text="QA approval date" id="label5LRNG"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Active" id="item0LRNG">
+				<cells>
+					<ObjectIdentifier title="{crNumber}" text="Item No. {batch_materialNumber}"/>
+					<Text text="{releaseData_headline}" id="text0LRNG" tooltip="{releaseData_headline}" maxLines="5"/>
+					<Text text="{releaseData_criteria}" id="text1LRNG" tooltip="{releaseData_headline}" maxLines="5"/>
+					<Text text="{path: 'releaseData_qaApprovalDate', targetType: 'any', format: '.commonFormatter.formatDate'}" id="text2LRNG"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

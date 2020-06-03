@@ -1,0 +1,210 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "com.novonordisk.ibr.BatchStatusAssignmentApp",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponentForManifest",
+			"version": "0.0.0"
+		},
+		"dataSources": {
+			"ZBPM_BSA_SRV": {
+				"uri": "/ecc/sap/opu/odata/sap/ZBPM_BSA_SRV/",
+				"type": "OData",
+				"settings": {
+					"localUri": "localService/metadata.xml"
+				}
+			},
+			"businessRules": {
+				"uri": "dest/RulesRuntime/rest/v2/workingset-rule-services",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"bpmworkflowruntime": {
+				"uri": "/your/path/here",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"cpiDoc": {
+				"uri": "dest/cpi/nn/3591/bpm/qualitydocs/document/single",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"cpiDataRefresh": {
+				"uri": "dest/cpi/http/nn/3592/bpm/sync/singleset",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"globalLIMSenv": {
+				"uri": "/your/path/here",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0"
+				}
+			},
+			"default": {
+				"uri": "/CloudApp/batch/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "4.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"crossNavigation": {
+			"inbounds": {
+				"intent1": {
+					"signature": {
+						"parameters": {},
+						"additionalParameters": "allowed"
+					},
+					"semanticObject": "Batch",
+					"action": "batchOverview",
+					"title": "{{appTitle}}",
+					"icon": "sap-icon://product"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentOverview",
+			"type": "XML",
+			"async": true,
+			"id": "BatchAssignmentOverview"
+		},
+		"dependencies": {
+			"minUI5Version": "1.65.6",
+			"libs": {
+				"sap.m": {},
+				"sap.ui.comp": {
+					"minVersion": ""
+				},
+				"sap.ui.core": {},
+				"sap.ui.layout": {},
+				"sap.ui.table": {
+					"minVersion": ""
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "com.novonordisk.ibr.BatchStatusAssignmentApp.i18n.i18n"
+				}
+			},
+			"businessRules": {
+				"dataSource": "businessRules"
+			},
+			"bpmworkflowruntime": {
+				"dataSource": "bpmworkflowruntime"
+			},
+			"cpiDoc": {
+				"dataSource": "cpiDoc"
+			},
+			"globalLIMSenv": {
+				"dataSource": "globalLIMSenv"
+			},
+			"ecc": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Auto",
+					"defaultBindingMode": "OneWay",
+					"defaultCountMode": "Request"
+				},
+				"dataSource": "ZBPM_BSA_SRV",
+				"preload": false
+			},
+			"": {
+				"dataSource": "default",
+				"preload": true,
+				"settings": {
+					"autoExpandSelect": true,
+					"operationMode": "Server",
+					"synchronizationMode": "None",
+					"groupId": "$auto"
+				}
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}],
+			"js": [{
+				"uri": "libs/jsPDF/jspdf.min.js"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "com.novonordisk.ibr.BatchStatusAssignmentApp.view",
+				"controlAggregation": "pages",
+				"controlId": "app",
+				"clearControlAggregation": false
+			},
+			"routes": [{
+				"name": "overview",
+				"pattern": "",
+				"target": ["overview"]
+			}, {
+				"name": "ReleaseBatch",
+				"pattern": "ReleaseBatch/{plant}/{materialNumber}/{batchNumber}",
+				"target": ["ReleaseBatch"]
+			}],
+			"targets": {
+				"overview": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "BatchAssignmentOverview",
+					"viewLevel": 1
+				},
+				"ReleaseBatch": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Main",
+					"viewLevel": 2
+				}
+			}
+		}
+	}
+}

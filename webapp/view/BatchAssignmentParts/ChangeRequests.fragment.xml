@@ -1,0 +1,75 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<VBox width="100%" direction="Column">
+	    <items>
+	        <Table noDataText="No Data" items="{path: 'ingoingBatches>/Components', sorter:{path:''} }" busy="{=${state>/loading} ?  true : false}" backgroundDesign="Transparent" class="sapUiSmallMarginBottom" visible="false">
+		<headerToolbar>
+			<OverflowToolbar>
+				<Title text="Date of Manufacture per Item No"/>
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column>
+				<Label text="Item No"/>
+			</Column>
+			<Column >
+				<Label text="Item Name"/>
+			</Column>
+			<Column width="250px">
+				<Label text="Date of Manufacture date range"  wrapping="true"/>
+			</Column>
+			<Column >
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Active">
+				<cells>
+					<Text text="{ingoingBatches>sMaterialNumber}"  tooltip="{ingoingBatches>sMaterialNumber}" maxLines="5"/>
+					<Text text="{ingoingBatches>sMaterialDescription}" tooltip="{ingoingBatches>sMaterialDescription}" maxLines="5"/>
+					<Text text="{path: 'ingoingBatches>oDates/sStartDate'} - {path: 'ingoingBatches>oDates/sEndDate'}" tooltip="{ingoingBatches>oDates/sStartDate} - {ingoingBatches>oDates/sEndDate}"  maxLines="5"/>
+					<Text text="{ingoingBatches>iCount} batches"  tooltip="{ingoingBatches>iCount} batches" maxLines="5"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+	        <Table xmlns:form="sap.ui.layout.form" noDataText="No Data" items="{path: 'novoGlowBlockingBatchReleases', sorter:{path:'releaseData_qaApprovalDate'} }" busy="{=${state>/loading} ?  true : false}">
+	            <headerToolbar>
+	                <OverflowToolbar >
+	                    <Title text="Blocking Release"/>
+	                    
+	                </OverflowToolbar>
+	                
+	            </headerToolbar>
+	            <columns>
+	                <Column>
+	                    <Label text="CR Number" />
+	                    
+	                </Column>
+	                <Column >
+	                    <Label text="Headline" />
+	                    
+	                </Column>
+	                <Column >
+	                    <Label text="Criteria for Prod. Release" wrapping="true"/>
+	                    
+	                </Column>
+	                <Column >
+	                    <Label text="QA approval date" />
+	                    
+	                </Column>
+	                </columns>
+	            <items>
+	                <ColumnListItem type="Active" >
+	                    <cells>
+	                        <ObjectIdentifier title="{crNumber}" text="Item No. {batch_materialNumber}"/>
+	                        <Text text="{releaseData_headline}" tooltip="{releaseData_headline}" maxLines="5"/>
+	                        <Text text="{releaseData_criteria}"  tooltip="{releaseData_headline}" maxLines="5"/>
+	                        <Text text="{path: 'releaseData_qaApprovalDate', targetType: 'any', format: '.commonFormatter.formatDate'}" />
+	                        </cells>
+	                    
+	                </ColumnListItem>
+	                
+	            </items>
+	            </Table>
+	    </items>
+	</VBox>
+</core:FragmentDefinition>

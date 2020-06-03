@@ -1,0 +1,66 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:fb="sap.ui.comp.filterbar" xmlns:f="sap.f" controllerName="com.novonordisk.ibr.BatchStatusAssignmentApp.controller.BatchAssignmentOverview">
+	<App id="app" autoFocus="false">
+		<pages>
+			<f:DynamicPage id="BatchAssignmentOverview">
+				<f:title>
+					<f:DynamicPageTitle>
+						<f:heading>
+							<Title text="Batches to Be Status Assigned"/>
+						</f:heading>
+					</f:DynamicPageTitle>
+				</f:title>
+				<f:header>
+					<f:DynamicPageHeader pinnable="true">
+						<f:content>
+							<fb:FilterBar id="filterbar" search="searchTable" useToolbar="false" showGoOnFB="false" showFilterConfiguration="false">
+								<fb:filterGroupItems>
+									<fb:FilterGroupItem groupName="frontpage" name="batchFilter" label="Batch" partOfCurrentVariant="true" visibleInFilterBar="true">
+										<fb:control>
+											<SearchField placeholder="Search for ..." id="batchSearchField" search="searchTable"/>	
+										</fb:control>
+									</fb:FilterGroupItem>								
+									<fb:FilterGroupItem groupName="frontpage" name="plantFilter" label="Plant" partOfCurrentVariant="true" visibleInFilterBar="true">
+										<fb:control>
+											<Select id="plantSelect" change="searchTable">
+												<core:Item key="2038" text="2038"/>
+												<core:Item key="2039" text="2039"/>
+											</Select>
+										</fb:control>
+									</fb:FilterGroupItem>
+								</fb:filterGroupItems>
+							</fb:FilterBar>	
+						</f:content>
+					</f:DynamicPageHeader>
+				</f:header>	
+				<f:content>
+		    		<Table noDataText="No data" id="mainTable" items="{path:'/Batches', sorter:{path:'dateOfManufacture'} }" growing="true" growingThreshold="10" growingTriggerText="Load More">
+				        <columns>
+							<Column>
+			                        <Label text="Batch No."/>
+			                </Column>
+			                <Column>
+		                        <Label text="Item No."/>
+			                </Column>
+			                <Column>
+		                        <Label text="Item Name"/>
+			                </Column>
+			                <Column>
+			                    <Label text="Date of Manufacture"/>
+			                </Column>
+		            	</columns>
+		            	<items>
+		                	<ColumnListItem id="mainColumns" press="navigateToDetails" tooltip="{=${batchStatus}.toLowerCase().startsWith('manual handling') ? 'Insufficent Data' : ''}" type="{=${batchStatus}.toLowerCase().startsWith('manual handling') ? 'Inactive' : 'Navigation'}">
+		                    	<cells>
+			                        <Text text="{batchNumber}" id="batchNumber"/>
+			                        <Text text="{materialNumber}" id="itemNumber"/>
+			                        <Text text="{materialDescription}" id="itemDescription"/>
+			                        <Text text="{path: 'dateOfManufacture', targetType: 'any', format: '.commonFormatter.formatDate'}" id="dateOfManufacture"/>
+			                    </cells>
+			                </ColumnListItem>
+						</items>
+		            </Table>
+				</f:content>
+			</f:DynamicPage>
+		</pages>
+	</App>
+</mvc:View>

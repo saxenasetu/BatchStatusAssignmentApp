@@ -1,0 +1,33 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Table noDataText="No Data" id="tableLimRelECC" items="{path: 'ingoingBatches>/EccLimitingBatchReleases', sorter: {path: 'batch_materialNumber' } }" busy="{=${state>/loading} ?  true : false}">
+		<headerToolbar>
+			<OverflowToolbar>
+				<Title text="Limiting Release"/>
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column>
+				<Label text="Inherited CR Number"/>
+			</Column>
+			<Column>
+				<Label text="Headline"/>
+			</Column>
+			<Column>
+				<Label text="Criteria for batch limitation"/>
+			</Column>
+			<Column hAlign="Center">
+				<Label text="Batch limitation removed"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Active">
+				<cells>
+					<ObjectIdentifier title="{ingoingBatches>crNumber}" text="Item No. {ingoingBatches>batch_materialNumber}"/>
+					<Text text="{ingoingBatches>releaseData_headline}" id="relHeadLRECC" tooltip="{ingoingBatches>releaseData_headline}" maxLines="5"/>
+					<Text text="{ingoingBatches>releaseData_criteria}" id="relCritLRECC" tooltip="{ingoingBatches>releaseData_headline}" maxLines="5"/>
+					<Text text="{= !${ingoingBatches>batchLimitationRemoved} ? 'Not found' : ${ingoingBatches>batchLimitationRemoved} }" id="batchLimRemovedLRECC"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

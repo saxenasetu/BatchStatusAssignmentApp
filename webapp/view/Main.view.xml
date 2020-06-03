@@ -1,0 +1,91 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:core="sap.ui.core" xmlns:m="sap.m" xmlns:l="sap.ui.layout" xmlns:form="sap.ui.layout.form" controllerName="com.novonordisk.ibr.BatchStatusAssignmentApp.controller.Main" displayBlock="true">
+	<m:App id="app">
+		<m:pages>
+			<m:Page id="batchStatusAssignmentPage" showHeader="false" showFooter="false">
+				<ObjectPageLayout upperCaseAnchorBar="false">
+					<headerTitle>
+						<ObjectPageDynamicHeaderTitle>
+							<expandedHeading>
+								<m:Title text="Batch {batchNumber}" wrapping="true"/>
+							</expandedHeading>
+							<snappedHeading>
+								<m:Title text="Batch {batchNumber}" wrapping="true"/>
+							</snappedHeading>
+						</ObjectPageDynamicHeaderTitle>
+					</headerTitle>
+					<headerContent>
+						<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.HeaderContent" type="XML"/>
+					</headerContent>
+					<sections>
+						<ObjectPageSection title="Batch Genealogy" visible="false">
+							<subSections>
+								<ObjectPageSubSection title="Batch Summary Status">
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.BatchSummaryStatusBlock" type="XML"/>
+								</ObjectPageSubSection>
+								<ObjectPageSubSection title="SAP Batch Status">
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.SAPBatchStatusBlock" type="XML"/>
+								</ObjectPageSubSection>
+								<ObjectPageSubSection title="LIMS Disposition Code">
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.LIMSDispositionCodeBlock" type="XML"/>
+								</ObjectPageSubSection>
+							</subSections>
+						</ObjectPageSection>
+					</sections>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Change Requests">
+								<m:VBox>
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.ChangeRequests" type="XML"/>
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.InheritedLimitingRelease" class="sapUiMediumMarginTop" type="XML"/>
+									<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.LimitingReleaseNG" class="sapUiMediumMarginTop" type="XML"/>
+								</m:VBox>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Deviations">
+								<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.DeviationLimitationsBlock" type="XML"/>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Deviation Evaluation" visible="false">
+								<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.DeviationEvaluationBlock" type="XML"/>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Inherited Information">
+								<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.InheritedInformation" type="XML"/>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Notes" visible="false">
+								<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.NotesBlock" type="XML"/>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+					<ObjectPageSection>
+						<subSections>
+							<ObjectPageSubSection title="Assignments" visible="false">
+								<core:Fragment fragmentName="com.novonordisk.ibr.BatchStatusAssignmentApp.view.BatchAssignmentParts.AssignmentsBlock" type="XML"/>
+							</ObjectPageSubSection>
+						</subSections>
+					</ObjectPageSection>
+				</ObjectPageLayout>
+				<m:footer>
+					<m:Bar>
+						<m:contentRight>
+							<m:Button text="Assign" type="Emphasized" press="assignBatch"/>
+						</m:contentRight>
+					</m:Bar>
+				</m:footer>
+			</m:Page>
+		</m:pages>
+	</m:App>
+</mvc:View>

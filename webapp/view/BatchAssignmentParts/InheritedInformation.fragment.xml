@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<Table items="{path: 'ingoingBatches>/Notifications', sorter: {path: 'batch/batchNumber'} }" busy="{=${state>/loading} ?  true : false}">
+		<columns>
+			<Column width="8rem"><Text text="Batch No."/></Column>
+			<Column width="12rem"><Text text="Standard Comment Code"/></Column>
+			<Column width="10rem"><Text text="Z1 or Z4 Notification"/></Column>
+			<Column><Text text="Note"/></Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<ObjectIdentifier title="{ingoingBatches>batch/batchNumber}"/>
+					<Text text="{ingoingBatches>standardCommentCodes}"/>
+					<Text text="{ingoingBatches>notificationType}: {ingoingBatches>notificationNumber}"/>
+					<Text text="{ingoingBatches>note}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

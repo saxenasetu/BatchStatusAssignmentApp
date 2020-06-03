@@ -1,0 +1,919 @@
+[{
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='5183011',Plant='2021',BatchNumber='EW5G288')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='5183011',Plant='2021',BatchNumber='EW5G288')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "5183011",
+	"Plant": "2021",
+	"BatchNumber": "EW5G288",
+	"BatchStatusOK": false,
+	"ExpiryDate": "2017-04-06",
+	"ProductionOrder": "001000073933",
+	"MaterialType": "ZSEM",
+	"MaterialDescription": "LIRAGL. 6.0 MG 3ML CART. UNI",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 0,
+	"ParentMaterialNumber": "",
+	"ParentBatch": "",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='5183011',Plant='2021',BatchNumber='EW5G288')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='5183011',Plant='2021',BatchNumber='EW5G288')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1012649',Plant='2021',BatchNumber='D5UDJ68')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1012649',Plant='2021',BatchNumber='D5UDJ68')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1012649",
+	"Plant": "2021",
+	"BatchNumber": "D5UDJ68",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2016-10-07",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "DISODIUM PHOSPHATE DIHYDRATE",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1012649',Plant='2021',BatchNumber='D5UDJ68')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1012649',Plant='2021',BatchNumber='D5UDJ68')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1016229',Plant='2021',BatchNumber='D5UHG02')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1016229',Plant='2021',BatchNumber='D5UHG02')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1016229",
+	"Plant": "2021",
+	"BatchNumber": "D5UHG02",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2016-07-01",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "PHENOL CRYSTAL (USP/JP/PH.EUR)",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1016229',Plant='2021',BatchNumber='D5UHG02')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1016229',Plant='2021',BatchNumber='D5UHG02')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1020780',Plant='2021',BatchNumber='C5UEA56')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1020780',Plant='2021',BatchNumber='C5UEA56')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1020780",
+	"Plant": "2021",
+	"BatchNumber": "C5UEA56",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-11-14",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "1,2-PROPANDIOL (PHARM)",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 L",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 L",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "L",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1020780',Plant='2021',BatchNumber='C5UEA56')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1020780',Plant='2021',BatchNumber='C5UEA56')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1021065',Plant='2021',BatchNumber='B5UV249')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1021065',Plant='2021',BatchNumber='B5UV249')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1021065",
+	"Plant": "2021",
+	"BatchNumber": "B5UV249",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-05-28",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "DIMETICON EMULSION 35% DC365",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1021065',Plant='2021',BatchNumber='B5UV249')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1021065',Plant='2021',BatchNumber='B5UV249')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1307673',Plant='2021',BatchNumber='C5UY313')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1307673',Plant='2021',BatchNumber='C5UY313')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1307673",
+	"Plant": "2021",
+	"BatchNumber": "C5UY313",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2018-07-01",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "FILTERPA. DURAPORE CVGL71TP-3",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1307673',Plant='2021',BatchNumber='C5UY313')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1307673',Plant='2021',BatchNumber='C5UY313')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1315005',Plant='2021',BatchNumber='E5U6787')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1315005',Plant='2021',BatchNumber='E5U6787')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1315005",
+	"Plant": "2021",
+	"BatchNumber": "E5U6787",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2019-12-01",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "FILTER KPHLA10TT1",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1315005',Plant='2021',BatchNumber='E5U6787')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1315005',Plant='2021',BatchNumber='E5U6787')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1422936',Plant='2021',BatchNumber='EW5F668')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1422936',Plant='2021',BatchNumber='EW5F668')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1422936",
+	"Plant": "2021",
+	"BatchNumber": "EW5F668",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-05-26",
+	"ProductionOrder": "001000070811",
+	"MaterialType": "ZSOL",
+	"MaterialDescription": "HYDROCHLORIC ACID 2N",
+	"ProducedInQuality": false,
+	"ProducedFmt": "38,500 L",
+	"ProducedQty": "38.500 ",
+	"ProducedUOM": "L",
+	"QualityInspectionFmt": "0 L",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "L",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1422936',Plant='2021',BatchNumber='EW5F668')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1422936',Plant='2021',BatchNumber='EW5F668')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UDN20')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UDN20')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2032317",
+	"Plant": "2021",
+	"BatchNumber": "D5UDN20",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2020-02-19",
+	"ProductionOrder": "",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "CARTRIDGE 3 ML",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UDN20')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UDN20')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UEC45')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UEC45')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2032317",
+	"Plant": "2021",
+	"BatchNumber": "D5UEC45",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2020-01-28",
+	"ProductionOrder": "",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "CARTRIDGE 3 ML",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UEC45')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2032317',Plant='2021',BatchNumber='D5UEC45')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G458')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G458')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G458",
+	"BatchStatusOK": false,
+	"ExpiryDate": "2015-06-03",
+	"ProductionOrder": "001000074925",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G458')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G458')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1017012',Plant='2021',BatchNumber='C5UDN84')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1017012',Plant='2021',BatchNumber='C5UDN84')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "1017012",
+	"Plant": "2021",
+	"BatchNumber": "C5UDN84",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-11-06",
+	"ProductionOrder": "",
+	"MaterialType": "ZRAW",
+	"MaterialDescription": "SILIKONOLIE 12500 (EP)",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 2,
+	"ParentMaterialNumber": "2131001",
+	"ParentBatch": "EW5G458",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1017012',Plant='2021',BatchNumber='C5UDN84')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='1017012',Plant='2021',BatchNumber='C5UDN84')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131000',Plant='2021',BatchNumber='D5UDP64')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131000',Plant='2021',BatchNumber='D5UDP64')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131000",
+	"Plant": "2021",
+	"BatchNumber": "D5UDP64",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2017-02-08",
+	"ProductionOrder": "",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 2,
+	"ParentMaterialNumber": "2131001",
+	"ParentBatch": "EW5G458",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131000',Plant='2021',BatchNumber='D5UDP64')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131000',Plant='2021',BatchNumber='D5UDP64')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G461')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G461')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G461",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-03",
+	"ProductionOrder": "001000074928",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "142.800 EA",
+	"ProducedQty": "142800.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G461')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G461')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G462')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G462')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G462",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-03",
+	"ProductionOrder": "001000074929",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "146.400 EA",
+	"ProducedQty": "146400.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G462')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G462')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G465')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G465')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G465",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-04",
+	"ProductionOrder": "001000074932",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "141.400 EA",
+	"ProducedQty": "141400.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G465')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G465')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G467')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G467')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G467",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-05",
+	"ProductionOrder": "001000074934",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "142.800 EA",
+	"ProducedQty": "142800.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G467')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G467')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G469')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G469')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G469",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-05",
+	"ProductionOrder": "001000074936",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "138.600 EA",
+	"ProducedQty": "138600.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G469')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G469')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G495')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G495')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G495",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-05",
+	"ProductionOrder": "001000075166",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "141.400 EA",
+	"ProducedQty": "141400.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G495')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G495')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G503')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G503')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2131001",
+	"Plant": "2021",
+	"BatchNumber": "EW5G503",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-05",
+	"ProductionOrder": "001000075176",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.RUBBER PLUNGER Ø9.64",
+	"ProducedInQuality": false,
+	"ProducedFmt": "135.800 EA",
+	"ProducedQty": "135800.000 ",
+	"ProducedUOM": "EA",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G503')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2131001',Plant='2021',BatchNumber='EW5G503')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G007')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G007')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2174866",
+	"Plant": "2021",
+	"BatchNumber": "EW5G007",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-05-14",
+	"ProductionOrder": "001000072544",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.CAP:8 LIGHTBLUE/BROWN LFL",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G007')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G007')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G009')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G009')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2174866",
+	"Plant": "2021",
+	"BatchNumber": "EW5G009",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-05-22",
+	"ProductionOrder": "001000072546",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.CAP:8 LIGHTBLUE/BROWN LFL",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G009')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G009')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G302')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G302')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2174866",
+	"Plant": "2021",
+	"BatchNumber": "EW5G302",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-02",
+	"ProductionOrder": "001000074231",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.CAP:8 LIGHTBLUE/BROWN LFL",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G302')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G302')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G303')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G303')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2174866",
+	"Plant": "2021",
+	"BatchNumber": "EW5G303",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-03",
+	"ProductionOrder": "001000074232",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.CAP:8 LIGHTBLUE/BROWN LFL",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G303')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G303')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G399')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G399')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "2174866",
+	"Plant": "2021",
+	"BatchNumber": "EW5G399",
+	"BatchStatusOK": true,
+	"ExpiryDate": "2015-06-06",
+	"ProductionOrder": "001000074773",
+	"MaterialType": "ZPAC",
+	"MaterialDescription": "ST.CAP:8 LIGHTBLUE/BROWN LFL",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 EA",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 EA",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "EA",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G399')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='2174866',Plant='2021',BatchNumber='EW5G399')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='CJ1LK4104')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='CJ1LK4104')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "3022040",
+	"Plant": "2021",
+	"BatchNumber": "CJ1LK4104",
+	"BatchStatusOK": false,
+	"ExpiryDate": "2018-12-06",
+	"ProductionOrder": "",
+	"MaterialType": "ZSEM",
+	"MaterialDescription": "LIRAGLUTIDE K4 DRUG SUBSTANCE",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='CJ1LK4104')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='CJ1LK4104')/BatchTree"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='DJ1LK4019')",
+		"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='DJ1LK4019')",
+		"type": "ZBPM_BSA_SRV.Batch"
+	},
+	"MaterialNumber": "3022040",
+	"Plant": "2021",
+	"BatchNumber": "DJ1LK4019",
+	"BatchStatusOK": false,
+	"ExpiryDate": "2019-03-24",
+	"ProductionOrder": "",
+	"MaterialType": "ZSEM",
+	"MaterialDescription": "LIRAGLUTIDE K4 DRUG SUBSTANCE",
+	"ProducedInQuality": false,
+	"ProducedFmt": "0 KG",
+	"ProducedQty": "0.000 ",
+	"ProducedUOM": "",
+	"QualityInspectionFmt": "0 KG",
+	"QualityInspectionQty": "0.000 ",
+	"QualityInspectionUOM": "KG",
+	"HierarchyLevel": 1,
+	"ParentMaterialNumber": "5183011",
+	"ParentBatch": "EW5G288",
+	"Characteristics": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='DJ1LK4019')/Characteristics"
+		}
+	},
+	"BatchTree": {
+		"__deferred": {
+			"uri": "http://nne1qapp05.novo.dk:1041/sap/opu/odata/sap/ZBPM_BSA_SRV/BatchSet(MaterialNumber='3022040',Plant='2021',BatchNumber='DJ1LK4019')/BatchTree"
+		}
+	}
+}]

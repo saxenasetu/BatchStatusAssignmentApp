@@ -1,0 +1,63 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form">
+	<form:Form>
+		<form:layout>
+			<form:ColumnLayout columnsXL="1" columnsL="1" labelCellsLarge="2"/>
+		</form:layout>
+		<form:formContainers>
+			<form:FormContainer>
+				<form:formElements>
+					<form:FormElement label="Accepted" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Approved" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Dispensation" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Limited" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="On-Hold" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Pre-Approved" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Quarantine" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Rejected" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Technical" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+					<form:FormElement label="Quarantine Transfer" visible="">
+						<form:fields>
+							<Link text="0 Batches"/>
+						</form:fields>
+					</form:FormElement>
+				</form:formElements>
+			</form:FormContainer>
+		</form:formContainers>
+	</form:Form>
+</core:FragmentDefinition>
